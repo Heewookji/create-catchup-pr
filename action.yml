@@ -1,5 +1,5 @@
-name: "Create Catchup PR"
-author: Shubham Singh <shubham.singh094@yahoo.com>
+name: "Create Catchup PR - heewook"
+author: Heewookji
 description: "Github Action to create PR for syncing multiple branches from different forks"
 branding:
   icon: git-pull-request
