@@ -13,6 +13,8 @@ async function createBranch(octokit, repo, sha, branch) {
       });
     } else {
       console.log("Error while creating new branch");
+      console.log(error.name);
+      console.log(error.status);
       throw Error(error);
     }
   }
